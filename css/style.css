@@ -285,9 +285,9 @@ a.active {
 
 #home {
     background: url(../img/home-bg-4.gif);
+    background-position: bottom;
     background-size: cover;
     height: 100vh;
-	vertical-align: bottom;
 }
 
 .table-cell {
@@ -298,7 +298,6 @@ a.active {
 .disply-table {
     display: table;
     height: 100vh;
-	vertical-align: bottom;
 }
 
 
