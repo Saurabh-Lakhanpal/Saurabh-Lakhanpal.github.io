@@ -287,7 +287,6 @@ a.active {
     background: url(../img/home-bg-4.gif);
     background-size: cover;
     height: 100vh;
-    vertical-align: top;
 }
 
 .table-cell {
