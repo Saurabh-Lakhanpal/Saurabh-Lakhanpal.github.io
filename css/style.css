@@ -289,7 +289,7 @@ a.active {
     background-color: #E3E3E3;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:100% 10%;
+    background-position: 10% 100%;
 }
 
 .table-cell {
