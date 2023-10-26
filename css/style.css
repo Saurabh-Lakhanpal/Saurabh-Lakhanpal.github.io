@@ -285,7 +285,7 @@ a.active {
 
 #home {
     background: url(../img/home-bg-4.gif);
-    background-position: bottom;
+    background-position: 50px 100px;
     background-size: cover;
     height: 100vh;
 }
