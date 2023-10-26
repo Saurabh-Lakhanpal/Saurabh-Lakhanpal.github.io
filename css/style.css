@@ -287,7 +287,7 @@ a.active {
     background: url(../img/home-bg-6.gif);
     /background-size: cover;/
     height: 100vh;
-	background-color: red;
+	background-color: #E3E3E3;
 	background-position: Bottom;
 	background-repeat: no-repeat;
 }
