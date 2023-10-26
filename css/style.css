@@ -289,6 +289,7 @@ a.active {
     height: 100vh;
 	background-color: red;
 	background-position: 50px 100px;
+	background-repeat: no-repeat;
 }
 
 .table-cell {
