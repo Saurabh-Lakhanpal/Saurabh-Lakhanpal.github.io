@@ -288,6 +288,7 @@ a.active {
     height: 100vh;
     background-color: #E3E3E3;
     background : Cover;
+    background-repeat: no-repeat;
 }
 
 .table-cell {
