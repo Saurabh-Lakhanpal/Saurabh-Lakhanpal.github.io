@@ -287,9 +287,7 @@ a.active {
     background: url(../img/home-bg-4.gif);
     height: 100vh;
     background-color: #E3E3E3;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 10% 100%;
+    background : Cover;
 }
 
 .table-cell {
@@ -300,7 +298,6 @@ a.active {
 .disply-table {
     display: table;
     height: 100vh;
-    background-position: 10% 100%;
 }
 
 
