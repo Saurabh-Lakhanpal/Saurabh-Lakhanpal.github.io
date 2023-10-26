@@ -288,7 +288,7 @@ a.active {
     /background-size: cover;/
     height: 100vh;
 	background-color: red;
-	background-position: 50px 100px;
+	background-position: Bottom;
 	background-repeat: no-repeat;
 }
 
