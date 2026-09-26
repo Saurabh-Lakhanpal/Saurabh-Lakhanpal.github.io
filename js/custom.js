@@ -103,8 +103,11 @@ $(document).ready(function () {
 
     });
 
-    //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    //animatedModal: every tile opens the same modal, filled from its template
+    $('.portfolio_item').on('click', function () {
+        $('#project-detail').html($('#tpl-' + this.id).html());
+        $('#animatedModal').scrollTop(0);
+    }).animatedModal();
 
     // Contact Form 	
 

@@ -413,6 +413,44 @@ a.active {
     padding-bottom: 1.2em;
 }
 
+/* bulleted lists in about, timeline and project details */
+.plain-list {
+    padding-left: 1.2em;
+    margin: 0 0 1.2em;
+}
+
+.plain-list li {
+    margin-bottom: .5em;
+    line-height: 1.6;
+}
+
+.projects-hint {
+    margin-top: 1em;
+    color: #777;
+}
+
+#project-detail h4 {
+    margin: 1.8em 0 .6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: #0798DE;
+}
+
+#project-detail .project-meta {
+    color: #777;
+    font-style: italic;
+    margin-top: 1em;
+}
+
+#project-detail .project-tech {
+    color: #555;
+}
+
+#project-detail {
+    padding-bottom: 60px;
+}
+
 .timeline-event-icon {
     -webkit-transition: -webkit-transform 0.2s ease-in;
     transition: -webkit-transform 0.2s ease-in;
