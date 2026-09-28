@@ -842,3 +842,11 @@ fieldset {
         font-size: 10px;
     }
 }
+
+/* keep the three-line hero title compact on phones */
+@media (max-width: 480px) {
+    #home h1 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+}
