@@ -851,16 +851,6 @@ fieldset {
     }
 }
 
-/* resume contact line under the hero title */
-.hero-contact {
-    margin-top: 1.5em;
-    font-size: 16px;
-    color: #555;
-}
-#home .social {
-    padding-left: 0;
-    margin-top: 1em;
-}
 
 /* phones: the four resume-heading nav labels must fit without covering the hero */
 @media (max-width: 480px) {
@@ -880,4 +870,14 @@ fieldset {
     #home .table-cell {
         padding-top: 70px;
     }
+}
+
+/* certifications and education sections, matching the other sections */
+#certifications {
+    padding: 100px 0;
+    background: #f3f3f3;
+}
+
+#education {
+    padding: 100px 0;
 }
