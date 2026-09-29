@@ -850,3 +850,34 @@ fieldset {
         line-height: 1.2;
     }
 }
+
+/* resume contact line under the hero title */
+.hero-contact {
+    margin-top: 1.5em;
+    font-size: 16px;
+    color: #555;
+}
+#home .social {
+    padding-left: 0;
+    margin-top: 1em;
+}
+
+/* phones: the four resume-heading nav labels must fit without covering the hero */
+@media (max-width: 480px) {
+    header {
+        height: auto;
+    }
+    nav ul {
+        padding: 8px 4px;
+    }
+    nav li {
+        margin: 3px 5px;
+    }
+    nav li a {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+    #home .table-cell {
+        padding-top: 70px;
+    }
+}
